@@ -37,7 +37,6 @@ refresh_and_get_stats()
     RETVAL = newHV();
     read_sizet_into_hv(aTHX_ "stats.active", RETVAL);
     read_sizet_into_hv(aTHX_ "stats.allocated", RETVAL);
-    read_sizet_into_hv(aTHX_ "stats.cactive", RETVAL);
     read_sizet_into_hv(aTHX_ "stats.mapped", RETVAL);
     read_sizet_into_hv(aTHX_ "stats.metadata", RETVAL);
     read_sizet_into_hv(aTHX_ "stats.resident", RETVAL);

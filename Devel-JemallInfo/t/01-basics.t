@@ -15,7 +15,6 @@ my @expected= qw/
     stats.resident
     stats.retained
     stats.mapped
-    stats.cactive
 /;
 my $ok= 1; $ok &&= exists $stats->{$_} for @expected;
 ok($ok);
