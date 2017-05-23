@@ -1,4 +1,4 @@
-Devel-JemallInfo
+Devel-Jemallctl
 
 Easy access to Jemalloc statistics from Perl
 
@@ -17,21 +17,21 @@ SUPPORT AND DOCUMENTATION
 After installing, you can find documentation for this module with the
 perldoc command.
 
-    perldoc Devel::JemallInfo
+    perldoc Devel::Jemallctl
 
 You can also look for information at:
 
     RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Devel-JemallInfo
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Devel-Jemallctl
 
     AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Devel-JemallInfo
+        http://annocpan.org/dist/Devel-Jemallctl
 
     CPAN Ratings
-        http://cpanratings.perl.org/d/Devel-JemallInfo
+        http://cpanratings.perl.org/d/Devel-Jemallctl
 
     Search CPAN
-        http://search.cpan.org/dist/Devel-JemallInfo/
+        http://search.cpan.org/dist/Devel-Jemallctl/
 
 
 LICENSE AND COPYRIGHT

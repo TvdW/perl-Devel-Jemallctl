@@ -1,6 +1,6 @@
 Changes
-JemallInfo.xs
-lib/Devel/JemallInfo.pm
+Jemallctl.xs
+lib/Devel/Jemallctl.pm
 Makefile.PL
 MANIFEST			This list of files
 README

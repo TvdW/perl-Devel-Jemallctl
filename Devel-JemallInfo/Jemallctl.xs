@@ -20,7 +20,7 @@ int read_sizet_into_hv(pTHX_ const char *mallkey, HV* hash)
     return success;
 }
 
-MODULE = Devel::JemallInfo PACKAGE = Devel::JemallInfo
+MODULE = Devel::Jemallctl PACKAGE = Devel::Jemallctl
 
 void
 stats_print()

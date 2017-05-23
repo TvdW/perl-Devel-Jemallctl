@@ -3,11 +3,11 @@ use 5.010;
 use strict;
 use warnings;
 use Test::More;
-use Devel::JemallInfo;
+use Devel::Jemallctl;
 
 plan tests => 1;
 
-my $stats= Devel::JemallInfo::refresh_and_get_stats;
+my $stats= Devel::Jemallctl::refresh_and_get_stats;
 my @expected= qw/
     stats.allocated
     stats.active

@@ -4,10 +4,10 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME             => 'Devel::JemallInfo',
+    NAME             => 'Devel::Jemallctl',
     AUTHOR           => q{Tom van der Woerdt <info@tvdw.eu>},
-    VERSION_FROM     => 'lib/Devel/JemallInfo.pm',
-    ABSTRACT_FROM    => 'lib/Devel/JemallInfo.pm',
+    VERSION_FROM     => 'lib/Devel/Jemallctl.pm',
+    ABSTRACT_FROM    => 'lib/Devel/Jemallctl.pm',
     LICENSE          => 'artistic_2',
     PL_FILES         => {},
     LIBS             => ['-ljemalloc'],
@@ -23,5 +23,5 @@ WriteMakefile(
         #'Foo::Bar::Module' => 5.0401,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean => { FILES => 'Devel-JemallInfo-*' },
+    clean => { FILES => 'Devel-Jemallctl-*' },
 );

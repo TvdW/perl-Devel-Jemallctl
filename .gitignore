@@ -14,8 +14,8 @@ inc/
 nytprof.out
 pod2htm*.tmp
 pm_to_blib
-Devel-JemallInfo-*
-Devel-JemallInfo-*.tar.gz
-JemallInfo.bs
-JemallInfo.c
-JemallInfo.o
+Devel-Jemallctl-*
+Devel-Jemallctl-*.tar.gz
+Jemallctl.bs
+Jemallctl.c
+Jemallctl.o

@@ -1,4 +1,4 @@
-package Devel::JemallInfo;
+package Devel::Jemallctl;
 
 use 5.010;
 use strict;
@@ -6,20 +6,20 @@ use warnings;
 use XSLoader;
 
 our $VERSION = '0.01';
-XSLoader::load("Devel::JemallInfo", $VERSION);
+XSLoader::load("Devel::Jemallctl", $VERSION);
 
 
 =head1 NAME
 
-Devel::JemallInfo - Insight into what Jemalloc is doing
+Devel::Jemallctl - Insight into what Jemalloc is doing
 
 =head1 SYNOPSIS
 
 Basically, C<Devel::MallInfo> for Jemalloc.
 
-    use Devel::JemallInfo;
+    use Devel::Jemallctl;
 
-    my $stats = Devel::JemallInfo::refresh_and_get_stats;
+    my $stats = Devel::Jemallctl::refresh_and_get_stats;
     printf "Current allocated/active/metadata/resident/mapped: %d/%d/%d/%d/%d",
         @$stats{qw/allocated active metadata resident mapped/};
 
