@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use Test::More;
 use Devel::Jemallctl;
+use Data::Dumper;
 
 plan tests => 1;
 
@@ -14,4 +15,4 @@ my @expected= qw/
     stats.mapped
 /;
 my $ok= 1; $ok &&= exists $stats->{$_} for @expected;
-ok($ok);
+ok($ok) or diag Dumper($stats);
