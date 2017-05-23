@@ -34,6 +34,24 @@ aims to cover the same use case: finding out how much memory a Perl process is u
 Hopefully in the future more mallctl options will be added, allowing for actual
 configuration of jemalloc in addition to getting statistics out.
 
+=head1 FUNCTIONS
+
+=over
+
+=item refresh_and_get_stats
+
+Refreshes jemalloc's internal stats and returns basic stats, if available.
+
+    my $stats = Devel::Jemallctl::refresh_and_get_stats;
+
+=item print_stats
+
+Outputs jemalloc's statistics on STDERR. Useful for quick analysis.
+
+    Devel::Jemallctl::print_stats();
+
+=back
+
 =head1 AUTHOR
 
 Tom van der Woerdt, C<< <tvdw@cpan.org> >>

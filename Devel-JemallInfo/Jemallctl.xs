@@ -23,7 +23,7 @@ int read_sizet_into_hv(pTHX_ const char *mallkey, HV* hash)
 MODULE = Devel::Jemallctl PACKAGE = Devel::Jemallctl
 
 void
-stats_print()
+print_stats()
   CODE:
     malloc_stats_print(NULL, NULL, NULL);
 
